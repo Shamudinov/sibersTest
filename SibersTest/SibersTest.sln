@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SibersTest.Web", "SibersTest\SibersTest.Web.csproj", "{84043B33-B526-420E-B7F2-D0566418024B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{907A2B23-0638-49B6-84D6-92425E4585E7} = {907A2B23-0638-49B6-84D6-92425E4585E7}
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4} = {34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}
+		{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10} = {9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SibersTest.DAL", "SibersTest.DAL\SibersTest.DAL.csproj", "{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{907A2B23-0638-49B6-84D6-92425E4585E7} = {907A2B23-0638-49B6-84D6-92425E4585E7}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SibersTest.Service", "SibersTest.Service\SibersTest.Service.csproj", "{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{907A2B23-0638-49B6-84D6-92425E4585E7} = {907A2B23-0638-49B6-84D6-92425E4585E7}
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4} = {34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SibersTest.Model", "SibersTest.Model\SibersTest.Model.csproj", "{907A2B23-0638-49B6-84D6-92425E4585E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84043B33-B526-420E-B7F2-D0566418024B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84043B33-B526-420E-B7F2-D0566418024B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84043B33-B526-420E-B7F2-D0566418024B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84043B33-B526-420E-B7F2-D0566418024B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CEB12D-E43E-4D3E-9AFF-2719FCE80BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6AEAE1-C8BB-4955-9FA8-FF6ACAE2DC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907A2B23-0638-49B6-84D6-92425E4585E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907A2B23-0638-49B6-84D6-92425E4585E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907A2B23-0638-49B6-84D6-92425E4585E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907A2B23-0638-49B6-84D6-92425E4585E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239D681C-47EE-4CBF-BBFA-67B807600A5C}
+	EndGlobalSection
+EndGlobal
